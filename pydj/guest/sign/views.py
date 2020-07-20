@@ -38,3 +38,6 @@ def event_manage(request):
     # username = request.COOKIES.get('user', '')  # 读取浏览器cookie
     username = request.session.get('user', '')  # 读取浏览器cookie
     return render(request, 'event_manage.html', {'user': username})
+
+
+# 测试家里提代码
